@@ -7,6 +7,7 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/StatsRhian/testGolem/workflows/R-CMD-check/badge.svg)](https://github.com/StatsRhian/testGolem/actions)
 <!-- badges: end -->
 
 The goal of testGolem is to …
