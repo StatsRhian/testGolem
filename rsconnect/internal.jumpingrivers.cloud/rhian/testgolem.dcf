@@ -1,0 +1,12 @@
+name: testgolem
+title: testGolem
+username: rhian
+account: rhian
+server: internal.jumpingrivers.cloud
+hostUrl: https://internal.jumpingrivers.cloud/__api__
+appId: 230
+bundleId: 948
+url: https://internal.jumpingrivers.cloud:443/content/230/
+when: 1613667398.41038
+asMultiple: FALSE
+asStatic: FALSE

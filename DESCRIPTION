@@ -5,9 +5,22 @@ Authors@R: person('Jumping', 'Rivers', email = 'info@jumpingrivers.com', role = 
 Description: Test Golem, Teat Golem.
 License: MIT + file LICENSE
 Imports: 
+    attempt,
+    bslib,
     config (>= 0.3.1),
+    glue,
+    ggplot2,
     golem (>= 0.3.0),
-    shiny (>= 1.6.0)
+    processx,
+    purrr,
+    shinipsum,
+    shiny (>= 1.6.0),
+    pkgload
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 3.0.0),
+    spelling
+Config/testthat/edition: 3
+Language: en-US
