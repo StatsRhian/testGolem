@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+name: deploy-rsconnect
+jobs:
+  test-coverage:
+    runs-on: macOS-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      run: Rscript -e "source('deploy_to_shinyapps.R')"
