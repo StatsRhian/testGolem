@@ -1,0 +1,13 @@
+Package: testGolem
+Title: Testing Golem
+Version: 0.0.0.9000
+Authors@R: person('Jumping', 'Rivers', email = 'info@jumpingrivers.com', role = c('cre', 'aut'))
+Description: Test Golem, Teat Golem.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    golem (>= 0.3.0),
+    shiny (>= 1.6.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
